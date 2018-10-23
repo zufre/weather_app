@@ -16,8 +16,7 @@ class App extends React.Component {
         </header>
         <main>
           <Container text>
-            <div className="page-content-container" />
-            <h1> Hello World! </h1>
+            <Main />
           </Container>
         </main>
       </div>
