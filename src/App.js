@@ -2,6 +2,7 @@ import React from "react";
 import { Container } from "semantic-ui-react";
 import "./index.css";
 import Header from "./components/header";
+import Main from "./components/main";
 class App extends React.Component {
   constructor(props) {
     super(props);
