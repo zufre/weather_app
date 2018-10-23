@@ -19,3 +19,6 @@
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
+
+REACT_APP_APIXU_API_KEY=d0fdd24f550240e884690425182310
+REACT_APP_APIXU_FORECAST_API=https://api.Apixu.com/v1/forecast.json
