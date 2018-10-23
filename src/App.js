@@ -1,17 +1,26 @@
-import React, { Component } from "react";
-
-class App extends Component {
+import React from "react";
+import { Container } from "semantic-ui-react";
+import "./index.css";
+import Header from "./components/header";
+class App extends React.Component {
+  constructor(props) {
+    super(props);
+    this.state = {};
+  }
   render() {
     return (
-      <div className="App">
-        <header className="App-header">
-          <p>
-            Edit <code>src/App.js</code> and save to reload.
-          </p>
+      <div>
+        <header>
+          <Header />
         </header>
+        <main>
+          <Container text>
+            <div className="page-content-container" />
+            <h1> Hello World! </h1>
+          </Container>
+        </main>
       </div>
     );
   }
 }
-
 export default App;
